@@ -1,0 +1,100 @@
+
+.container {
+    width: 350px;
+    height: 550px;
+    border: 1px solid rgb(25, 169, 209);
+    text-align: center;
+    font-size: small;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0f7fa;
+}
+
+.dot img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.Nha img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.Nha h2 {
+    font-size: 20px;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.role {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.P0 {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+.label {
+    font-size: 12px;
+    color: #555;
+}
+
+.count {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.bio {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.img img {
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    width: 110px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

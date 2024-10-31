@@ -1,0 +1,49 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.btn {
+    border: none;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.btn-cadetblue {
+    background-color:rgb(63, 149, 151);
+    color:white;
+}
+
+.btn-orange {
+    background-color: orange;
+    color: white;
+}
+
+.btn-purple {
+    background-color: purple;
+    color: white;
+}
+
+.btn-cadetblue:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.btn-orange:hover {
+    background-color:orangered;
+    color:black;
+}
+
+.btn-purple:hover {
+    background-color: blueviolet;
+    color:black;
+}

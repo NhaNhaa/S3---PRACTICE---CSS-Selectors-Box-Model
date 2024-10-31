@@ -1,0 +1,26 @@
+/* TODO */
+button {
+    border-radius: 30px;
+    border: 5px solid rgb(213, 101, 120);
+    background-color: rgb(236, 169, 180);
+    width: 700px;
+    height: 200px;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-right: 300px;
+    margin-bottom: 150px;
+    margin-left: 300px;
+}
+
+button:hover {
+    border: 5px solid rgb(249, 48, 249);
+    background-color: purple;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
